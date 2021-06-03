@@ -20,12 +20,12 @@ html , body{
 }
 .daterangepicker .ranges li.active,
 .daterangepicker .ranges li:hover {
-    background: #536A7F;
-    border: 1px solid #536A7F;
+    background: #2b029b;
+    border: 1px solid #052644;
     color: #fff
 }
 .daterangepicker .input-mini {
-    background-color: #eee;
+    background-color: rgb(131, 100, 100);
     border: 1px solid #ccc;
     box-shadow: none !important
 }
@@ -144,7 +144,7 @@ html , body{
     padding: 0 0 4px 0
 }
 .left_col {
-    background: #2A3F54
+    background: #0e0122
 }
 .nav-sm .container.body .col-md-3.left_col {
     min-height: 100%;
@@ -206,7 +206,7 @@ html , body{
     background: none
 }
 .nav-sm>.nav.side-menu>li.active-sm>a {
-    color: #1ABB9C !important
+    color: #1d1abb !important
 }
 .nav-sm .nav.side-menu li a i.toggle-up {
     display: none !important
@@ -304,7 +304,7 @@ html , body{
     margin-top: 5px;
     font-size: 10px;
     min-width: inherit;
-    color: #C4CFDA
+    color: #0c0850
 }
 .active a span.fa {
     text-align: right !important;
@@ -322,7 +322,7 @@ html , body{
 }
 .nav_menu {
     float: left;
-    background: #EDEDED;
+    background: #ededed;
     border-bottom: 1px solid #D9DEE4;
     margin-bottom: 10px;
     width: 100%;
@@ -347,7 +347,7 @@ html , body{
     position: fixed
 }
 body .container.body .right_col {
-    background: #F7F7F7
+    background: #402e46
 }
 .nav-md .container.body .right_col {
     padding: 10px 20px 0;
@@ -724,7 +724,7 @@ a:focus {
     margin-bottom: 6px
 }
 .nav.side-menu>li>a:hover {
-    color: #F2F5F7 !important
+    color: #0c0641 !important
 }
 .nav.side-menu>li>a:hover,
 .nav>li>a:focus {

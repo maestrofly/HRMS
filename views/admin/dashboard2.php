@@ -15,7 +15,7 @@ if(!isset($_SESSION['admin_name']) && !isset($_SESSION['password'])) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Human Resource Management Sysytem</title>
+    <title>Human Resource Management System</title>
 
     <!-- Bootstrap -->
     <link href="../../resource/css/bootstrap.css" rel="stylesheet">
@@ -153,8 +153,8 @@ if(!isset($_SESSION['admin_name']) && !isset($_SESSION['password'])) {
                                                     <i class="fa fa-user aero"></i>
                                                 </a>
                                                 <div class="media-body">
-                                                    <a class="title" href="#">Ms. Mary Jane</a>
-                                                    <p><strong>$2300. </strong> Agent Avarage Sales </p>
+                                                    <a class="title" href="#">Mr. Jonathan Attoh</a>
+                                                    <p><strong>$2300. </strong> Manager </p>
                                                     <p>
                                                         <small>12 Sales Today</small>
                                                     </p>
@@ -165,8 +165,8 @@ if(!isset($_SESSION['admin_name']) && !isset($_SESSION['password'])) {
                                                     <i class="fa fa-user green"></i>
                                                 </a>
                                                 <div class="media-body">
-                                                    <a class="title" href="#">Ms. Mary Jane</a>
-                                                    <p><strong>$2300. </strong> Agent Avarage Sales </p>
+                                                    <a class="title" href="#">Dr. Kofi Awoh</a>
+                                                    <p><strong>$2300. </strong> Sales Rep </p>
                                                     <p>
                                                         <small>12 Sales Today</small>
                                                     </p>
@@ -178,7 +178,7 @@ if(!isset($_SESSION['admin_name']) && !isset($_SESSION['password'])) {
                                                 </a>
                                                 <div class="media-body">
                                                     <a class="title" href="#">Ms. Mary Jane</a>
-                                                    <p><strong>$2300. </strong> Agent Avarage Sales </p>
+                                                    <p><strong>$2300. </strong> Agent   </p>
                                                     <p>
                                                         <small>12 Sales Today</small>
                                                     </p>
@@ -189,8 +189,8 @@ if(!isset($_SESSION['admin_name']) && !isset($_SESSION['password'])) {
                                                     <i class="fa fa-user aero"></i>
                                                 </a>
                                                 <div class="media-body">
-                                                    <a class="title" href="#">Ms. Mary Jane</a>
-                                                    <p><strong>$2300. </strong> Agent Avarage Sales </p>
+                                                    <a class="title" href="#">Ms. Kumah Israel</a>
+                                                    <p><strong>$2300. </strong> Agent Average Sales </p>
                                                     <p>
                                                         <small>12 Sales Today</small>
                                                     </p>
@@ -201,8 +201,8 @@ if(!isset($_SESSION['admin_name']) && !isset($_SESSION['password'])) {
                                                     <i class="fa fa-user green"></i>
                                                 </a>
                                                 <div class="media-body">
-                                                    <a class="title" href="#">Ms. Mary Jane</a>
-                                                    <p><strong>$2300. </strong> Agent Avarage Sales </p>
+                                                    <a class="title" href="#">Mr. Fun Dzipodi</a>
+                                                    <p><strong>$2300. </strong> Agent Average Sales </p>
                                                     <p>
                                                         <small>12 Sales Today</small>
                                                     </p>

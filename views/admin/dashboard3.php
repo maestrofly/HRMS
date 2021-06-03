@@ -16,7 +16,7 @@ if(!isset($_SESSION['admin_name']) && !isset($_SESSION['password'])) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Human Resource Management Sysytem</title>
+    <title>Human Resource Management System</title>
 
     <!-- Bootstrap -->
     <link href="../../resource/css/bootstrap.css" rel="stylesheet">
@@ -93,7 +93,7 @@ if(!isset($_SESSION['admin_name']) && !isset($_SESSION['password'])) {
                                     <div id="reportrange" class="pull-right"
                                          style="background: #fff; cursor: pointer; padding: 5px 10px; border: 1px solid #ccc">
                                         <i class="glyphicon glyphicon-calendar fa fa-calendar"></i>
-                                        <span>December 30, 2014 - January 28, 2015</span> <b class="caret"></b>
+                                        <span>December 30, 2020 - January 28, 2022</span> <b class="caret"></b>
                                     </div>
                                 </div>
                             </div>

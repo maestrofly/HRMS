@@ -31,7 +31,7 @@ $notices=$conn->getOne("SELECT COUNT(id) TOTAL FROM notices WHERE status = 1");
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Human Resource Management Sysytem</title>
+    <title>Human Resource Management System</title>
 
     <!-- Bootstrap -->
     <link href="../../resource/css/bootstrap.css" rel="stylesheet">
@@ -64,7 +64,7 @@ $notices=$conn->getOne("SELECT COUNT(id) TOTAL FROM notices WHERE status = 1");
             <!-- top tiles -->
             <div class="row tile_count">
                 <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
-                    <span class="count_top"><i class="fa fa-user"></i> Total Live Event in live</span>
+                    <span class="count_top"><i class="fa fa-user"></i> Total Leave Event in leave</span>
                     <div class="count"><?=$events['TOTAL']?></div>
                     <span class="count_bottom"><i class="green">4% </i> From last Week</span>
                 </div>
@@ -107,7 +107,7 @@ $notices=$conn->getOne("SELECT COUNT(id) TOTAL FROM notices WHERE status = 1");
                             <div class="col-md-6">
                                 <div id="reportrange" class="pull-right" style="background: #fff; cursor: pointer; padding: 5px 10px; border: 1px solid #ccc">
                                     <i class="glyphicon glyphicon-calendar fa fa-calendar"></i>
-                                    <span>December 30, 2014 - January 28, 2015</span> <b class="caret"></b>
+                                    <span>December 30, 2020 - January 28, 2022</span> <b class="caret"></b>
                                 </div>
                             </div>
                         </div>
@@ -445,12 +445,40 @@ $notices=$conn->getOne("SELECT COUNT(id) TOTAL FROM notices WHERE status = 1");
                                         <div class="block">
                                             <div class="block_content">
                                                 <h2 class="title">
+                                                    <a>Who Needs A holiday When You’ve Got&nbsp;remote work?</a>
+                                                </h2>
+                                                <div class="byline">
+                                                    <span>13 hours ago</span> by <a>Derrick Darku</a>
+                                                </div>
+                                                <p class="excerpt">People talk about wanting a leave yet do not imagine how freedom comes working remotely<a>Read&nbsp;More</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="block">
+                                            <div class="block_content">
+                                                <h2 class="title">
                                                     <a>Who Needs Sundance When You’ve Got&nbsp;Crowdfunding?</a>
+                                                </h2>
+                                                <div class="byline">
+                                                    <span>13 hours ago</span> by <a>Bobby Scott</a>
+                                                </div>
+                                                <p class="excerpt">Film festivals used to be do-or-die moments for movie makers. They were where you met the producers that could fund your project, and if the buyers liked your flick, they’d pay to Fast-forward and… <a>Read&nbsp;More</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="block">
+                                            <div class="block_content">
+                                                <h2 class="title">
+                                                    <a>Tips on Job Survival&nbsp;Crowdfunding?</a>
                                                 </h2>
                                                 <div class="byline">
                                                     <span>13 hours ago</span> by <a>Jane Smith</a>
                                                 </div>
-                                                <p class="excerpt">Film festivals used to be do-or-die moments for movie makers. They were where you met the producers that could fund your project, and if the buyers liked your flick, they’d pay to Fast-forward and… <a>Read&nbsp;More</a>
+                                                <p class="excerpt"> There are many ways t get this job done. You only need to be disciplined! <a>Read&nbsp;More</a>
                                                 </p>
                                             </div>
                                         </div>
@@ -464,35 +492,7 @@ $notices=$conn->getOne("SELECT COUNT(id) TOTAL FROM notices WHERE status = 1");
                                                 <div class="byline">
                                                     <span>13 hours ago</span> by <a>Jane Smith</a>
                                                 </div>
-                                                <p class="excerpt">Film festivals used to be do-or-die moments for movie makers. They were where you met the producers that could fund your project, and if the buyers liked your flick, they’d pay to Fast-forward and… <a>Read&nbsp;More</a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="block">
-                                            <div class="block_content">
-                                                <h2 class="title">
-                                                    <a>Who Needs Sundance When You’ve Got&nbsp;Crowdfunding?</a>
-                                                </h2>
-                                                <div class="byline">
-                                                    <span>13 hours ago</span> by <a>Jane Smith</a>
-                                                </div>
-                                                <p class="excerpt">Film festivals used to be do-or-die moments for movie makers. They were where you met the producers that could fund your project, and if the buyers liked your flick, they’d pay to Fast-forward and… <a>Read&nbsp;More</a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="block">
-                                            <div class="block_content">
-                                                <h2 class="title">
-                                                    <a>Who Needs Sundance When You’ve Got&nbsp;Crowdfunding?</a>
-                                                </h2>
-                                                <div class="byline">
-                                                    <span>13 hours ago</span> by <a>Jane Smith</a>
-                                                </div>
-                                                <p class="excerpt">Film festivals used to be do-or-die moments for movie makers. They were where you met the producers that could fund your project, and if the buyers liked your flick, they’d pay to Fast-forward and… <a>Read&nbsp;More</a>
+                                                <p class="excerpt">-They were where you met the producers that could fund your project, and if the buyers liked your flick, they’d pay to Fast-forward and… <a>Read&nbsp;More</a>
                                                 </p>
                                             </div>
                                         </div>
@@ -599,7 +599,7 @@ $notices=$conn->getOne("SELECT COUNT(id) TOTAL FROM notices WHERE status = 1");
                                         <ul class="to_do">
                                             <li>
                                                 <p>
-                                                    <input type="checkbox" class="flat"> Schedule meeting with new client </p>
+                                                    <input type="checkbox" class="flat"> Schedule leave for workers </p>
                                             </li>
                                             <li>
                                                 <p>

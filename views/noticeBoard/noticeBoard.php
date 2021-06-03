@@ -23,7 +23,7 @@ $notices=$conn->getAll("SELECT * FROM `notices`");
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Human Resource Management Sysytem</title>
+    <title>Human Resource Management System</title>
 
     <!-- Bootstrap -->
     <link href="../../resource/css/bootstrap.css" rel="stylesheet">
@@ -106,9 +106,9 @@ $notices=$conn->getAll("SELECT * FROM `notices`");
                                 <table id="datatable-buttons" class="table table-striped table-bordered">
                                     <thead>
                                     <tr>
-                                        <th>Notice Subject</th>
-                                        <th>Notice Date</th>
-                                        <th>Notice Time</th>
+                                        <th>Leave Subject</th>
+                                        <th>Leave Date</th>
+                                        <th>Leave Time</th>
                                         <th>Description</th>
                                         <th>Status</th>
                                         <th>Actions</th>

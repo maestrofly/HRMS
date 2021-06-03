@@ -23,7 +23,7 @@ $notices=$conn->getAll("SELECT * FROM `notices`");
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Human Resource Management Sysytem</title>
+    <title>Human Resource Management System</title>
 
     <!-- Bootstrap -->
     <link href="../../resource/css/bootstrap.css" rel="stylesheet">
@@ -57,7 +57,7 @@ $notices=$conn->getAll("SELECT * FROM `notices`");
 
                 <div class="page-title">
                     <div class="title_left">
-                        <h3>Notice <small>Board</small></h3>
+                        <h3>Leave <small>Board</small></h3>
                     </div>
 
                     <div class="title_right">
@@ -79,7 +79,7 @@ $notices=$conn->getAll("SELECT * FROM `notices`");
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="x_panel">
                             <div class="x_title">
-                                <h2>Manage <small>Notice</small></h2>
+                                <h2>Manage <small>Leave</small></h2>
                                 <ul class="nav navbar-right panel_toolbox">
                                     <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                                     </li>
@@ -106,9 +106,9 @@ $notices=$conn->getAll("SELECT * FROM `notices`");
                                 <table id="datatable-buttons" class="table table-striped table-bordered">
                                     <thead>
                                     <tr>
-                                        <th>Notice Subject</th>
-                                        <th>Notice Date</th>
-                                        <th>Notice Time</th>
+                                        <th>Leave Subject</th>
+                                        <th>Leave Date</th>
+                                        <th>LeaveTime</th>
                                         <th>Description</th>
                                         <th>Status</th>
                                         <th>Actions</th>

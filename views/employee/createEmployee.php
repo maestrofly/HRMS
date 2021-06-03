@@ -25,7 +25,7 @@ $designations=$conn->getAll("SELECT * FROM `employee_designations`");
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Human Resource Management System</title>
+    <title>Human Resource Management Sysytem</title>
 
     <!-- Bootstrap -->
     <link href="../../resource/css/bootstrap.css" rel="stylesheet">
@@ -50,7 +50,7 @@ $designations=$conn->getAll("SELECT * FROM `employee_designations`");
             <div class="">
                 <div class="page-title">
                     <div class="title_left">
-                        <h3>Create Employee Leave</h3>
+                        <h3>Create Employee</h3>
                     </div>
 
                     <div class="title_right">

@@ -23,7 +23,7 @@ if(!isset($_SESSION['admin_name']) && !isset($_SESSION['password'])) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Human Resource Management Sysytem</title>
+    <title>Human Resource Management System</title>
 
     <!-- Bootstrap -->
     <link href="../../resource/css/bootstrap.css" rel="stylesheet">
@@ -65,7 +65,7 @@ if(!isset($_SESSION['admin_name']) && !isset($_SESSION['password'])) {
                             }
                             ?>
                         </h5>
-                        <h3>Send Notice to Notice Board</h3>
+                        <h3>Send Leave to Notice Board</h3>
                     </div>
 
                     <div class="title_right">
@@ -85,7 +85,7 @@ if(!isset($_SESSION['admin_name']) && !isset($_SESSION['password'])) {
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="x_panel">
                             <div class="x_title">
-                                <h2>Put your employee notice <small>correctly</small></h2>
+                                <h2>Put your employee leave <small>correctly</small></h2>
                                 <ul class="nav navbar-right panel_toolbox">
                                     <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                                     </li>
@@ -107,37 +107,37 @@ if(!isset($_SESSION['admin_name']) && !isset($_SESSION['password'])) {
 
                                 <form action="../../src/store/NoticeStore.php" method="post" class="form-horizontal form-label-left" novalidate>
 
-                                    <span class="section">Create a Notice</span>
+                                    <span class="section">Create a Leave</span>
 
                                     <div class="item form-group">
-                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="noticeSubject">Notice Subject <span class="required">*</span>
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="noticeSubject">Leave Subject <span class="required">*</span>
                                         </label>
                                         <div class="col-md-6 col-sm-6 col-xs-12">
-                                            <input id="noticeSubject" class="form-control col-md-7 col-xs-12" data-validate-minmax="10,20" name="noticeSubject" placeholder="Notice Subject" required="required" type="text">
+                                            <input id="noticeSubject" class="form-control col-md-7 col-xs-12" data-validate-minmax="10,20" name="noticeSubject" placeholder="Leave Subject" required="required" type="text">
                                         </div>
                                     </div>
 
                                     <div class="item form-group">
-                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="noticeDate">Notice Date <span class="required">*</span>
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="noticeDate">Leave Date <span class="required">*</span>
                                         </label>
                                         <div class="col-md-6 col-sm-6 col-xs-12">
-                                            <input id="noticeDate" class="form-control col-md-7 col-xs-12" data-validate-length-range="6" data-validate-words="2" name="noticeDate" placeholder="Notice Date" required="required" type="date">
+                                            <input id="noticeDate" class="form-control col-md-7 col-xs-12" data-validate-length-range="6" data-validate-words="2" name="noticeDate" placeholder="Leave Date" required="required" type="date">
                                         </div>
                                     </div>
 
                                     <div class="item form-group">
-                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="noticeTime">Notice Time <span class="required">*</span>
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="noticeTime">Leave Time <span class="required">*</span>
                                         </label>
                                         <div class="col-md-6 col-sm-6 col-xs-12">
-                                            <input type="time" id="noticeTime" name="noticeTime" required="required" placeholder="Notice Time" class="form-control col-md-7 col-xs-12">
+                                            <input type="time" id="noticeTime" name="noticeTime" required="required" placeholder="Leave Time" class="form-control col-md-7 col-xs-12">
                                         </div>
                                     </div>
 
                                     <div class="item form-group">
-                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="noticeDesc">Notice Description<span class="required">*</span>
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="noticeDesc">Leave Description<span class="required">*</span>
                                         </label>
                                         <div class="col-md-6 col-sm-6 col-xs-12">
-                                            <textarea rows="5" id="noticeDesc" name="noticeDesc" required="required" placeholder="Notice Description" class="form-control col-md-7 col-xs-12"></textarea>
+                                            <textarea rows="5" id="noticeDesc" name="noticeDesc" required="required" placeholder="Leave Description" class="form-control col-md-7 col-xs-12"></textarea>
                                         </div>
                                     </div>
 
